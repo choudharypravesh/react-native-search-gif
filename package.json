@@ -12,6 +12,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@types/lodash.debounce": "^4.0.7",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
@@ -19,9 +20,11 @@
     "eslint-plugin-react": "^7.31.10",
     "husky": "^8.0.2",
     "lint-staged": "^13.0.3",
+    "lodash.debounce": "^4.0.8",
     "prettier": "^2.7.1",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-svg": "^13.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -60,5 +63,10 @@
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": "eslint --cache --fix",
     "src/**/*.{js,jsx,ts,tsx,md}": "prettier --write --ignore-unknown"
+  },
+  "rnpm": {
+    "assets": [
+	"./assets/fonts/"
+    ]
   }
 }

@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/NotoSans-Black.ttf",
+      "sha1": "1bb2eff33aae9d7cfa510a9b3e5d9c215602db14"
+    },
+    {
+      "path": "assets/fonts/NotoSans-Bold.ttf",
+      "sha1": "a063702bfcc720d5bfa1bba00706e0296ddf4523"
+    },
+    {
+      "path": "assets/fonts/NotoSans-Medium.ttf",
+      "sha1": "b0e73a061b6a39e3dfd64aebd1626464c1e1696e"
+    },
+    {
+      "path": "assets/fonts/NotoSans-Regular.ttf",
+      "sha1": "1a17c06f6feb06281dc9b524c24fcf05abb82c35"
+    },
+    {
+      "path": "assets/fonts/NotoSans-SemiBold.ttf",
+      "sha1": "090a19da387041e7c3ca96d0625d8fa6583601df"
+    },
+    {
+      "path": "assets/fonts/NotoSans.ttf",
+      "sha1": "a456ba4111c804aa5f1722dcf8658ea94b9f19b4"
+    },
+    {
+      "path": "assets/fonts/NotoSansDevanagariUI-Black.ttf",
+      "sha1": "0e77f484c8281d4326da57a644ab52b1d9432111"
+    },
+    {
+      "path": "assets/fonts/NotoSansDevanagariUI-Bold.ttf",
+      "sha1": "3ae3e230f3b27bea754e3bfea768f270914c97a7"
+    },
+    {
+      "path": "assets/fonts/NotoSansDevanagariUI-Medium.ttf",
+      "sha1": "6bf77412d2f96d220a8eadf5cb05d697e7b57732"
+    },
+    {
+      "path": "assets/fonts/NotoSansDevanagariUI-Regular.ttf",
+      "sha1": "dbf31674f5fed1bd6dd2e76d764aa81bcc1c6e7e"
+    },
+    {
+      "path": "assets/fonts/NotoSansDevanagariUI-SemiBold.ttf",
+      "sha1": "504bb7e5da5ce72648a81690464b5334cb7222bc"
+    }
+  ]
+}

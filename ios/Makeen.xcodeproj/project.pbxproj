@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* MakeenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MakeenTests.m */; };
+		059BFD2D159E4057BB35B1E0 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF7A92A8DADC49FCBFF2B298 /* NotoSans-Bold.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-Makeen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Makeen.a */; };
+		0F6FDB748FBB41619BD9395A /* NotoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EADCFD1789494BFBA4FC10ED /* NotoSans-Black.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		233420EFC19A4CE487819BEB /* NotoSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C68EB919D2A24074A1D0AC92 /* NotoSans.ttf */; };
+		2E5F9A85451745C68A4136F9 /* NotoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65527BB684164338ACA03527 /* NotoSans-SemiBold.ttf */; };
+		3E51E119117747EBBBD5DEF0 /* NotoSansDevanagariUI-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F69AF9273C346FC999C35B3 /* NotoSansDevanagariUI-Bold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-Makeen-MakeenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Makeen-MakeenTests.a */; };
+		7C8F03E0E98243DA96BEC1FD /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D433E329AA3741DC89A39E1F /* NotoSans-Medium.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		981ED9258EF547728C6D395F /* NotoSansDevanagariUI-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40F38A47DB5A478691CA2398 /* NotoSansDevanagariUI-Regular.ttf */; };
+		B81EF7F341D542F49DB27DDC /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F7DDADE58B94BE89F79835B /* NotoSans-Regular.ttf */; };
+		CB3797A7BE9F4995B73979D2 /* NotoSansDevanagariUI-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E67329DD3C14833A021A450 /* NotoSansDevanagariUI-Medium.ttf */; };
+		E1BA2F628CB14EB981A9FF9C /* NotoSansDevanagariUI-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B15D3FF816544C082E6639D /* NotoSansDevanagariUI-SemiBold.ttf */; };
+		F83A6DFBCEE141758A0977C6 /* NotoSansDevanagariUI-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 309759B30F254B74B227DC37 /* NotoSansDevanagariUI-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +41,7 @@
 		00E356EE1AD99517003FC87E /* MakeenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MakeenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeenTests.m; sourceTree = "<group>"; };
+		0F69AF9273C346FC999C35B3 /* NotoSansDevanagariUI-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansDevanagariUI-Bold.ttf"; path = "../assets/fonts/NotoSansDevanagariUI-Bold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Makeen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makeen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Makeen/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Makeen/AppDelegate.mm; sourceTree = "<group>"; };
@@ -37,13 +49,23 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Makeen/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Makeen/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Makeen-MakeenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Makeen-MakeenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		309759B30F254B74B227DC37 /* NotoSansDevanagariUI-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansDevanagariUI-Black.ttf"; path = "../assets/fonts/NotoSansDevanagariUI-Black.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Makeen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makeen.debug.xcconfig"; path = "Target Support Files/Pods-Makeen/Pods-Makeen.debug.xcconfig"; sourceTree = "<group>"; };
+		40F38A47DB5A478691CA2398 /* NotoSansDevanagariUI-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansDevanagariUI-Regular.ttf"; path = "../assets/fonts/NotoSansDevanagariUI-Regular.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Makeen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makeen.release.xcconfig"; path = "Target Support Files/Pods-Makeen/Pods-Makeen.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Makeen-MakeenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makeen-MakeenTests.debug.xcconfig"; path = "Target Support Files/Pods-Makeen-MakeenTests/Pods-Makeen-MakeenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Makeen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Makeen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65527BB684164338ACA03527 /* NotoSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-SemiBold.ttf"; path = "../assets/fonts/NotoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		7B15D3FF816544C082E6639D /* NotoSansDevanagariUI-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansDevanagariUI-SemiBold.ttf"; path = "../assets/fonts/NotoSansDevanagariUI-SemiBold.ttf"; sourceTree = "<group>"; };
+		7E67329DD3C14833A021A450 /* NotoSansDevanagariUI-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansDevanagariUI-Medium.ttf"; path = "../assets/fonts/NotoSansDevanagariUI-Medium.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Makeen/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Makeen-MakeenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makeen-MakeenTests.release.xcconfig"; path = "Target Support Files/Pods-Makeen-MakeenTests/Pods-Makeen-MakeenTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F7DDADE58B94BE89F79835B /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Regular.ttf"; path = "../assets/fonts/NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		C68EB919D2A24074A1D0AC92 /* NotoSans.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = NotoSans.ttf; path = ../assets/fonts/NotoSans.ttf; sourceTree = "<group>"; };
+		D433E329AA3741DC89A39E1F /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Medium.ttf"; path = "../assets/fonts/NotoSans-Medium.ttf"; sourceTree = "<group>"; };
+		EADCFD1789494BFBA4FC10ED /* NotoSans-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Black.ttf"; path = "../assets/fonts/NotoSans-Black.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FF7A92A8DADC49FCBFF2B298 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Bold.ttf"; path = "../assets/fonts/NotoSans-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +118,25 @@
 			name = Makeen;
 			sourceTree = "<group>";
 		};
+		222A4FFA4AE746BCA1353133 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EADCFD1789494BFBA4FC10ED /* NotoSans-Black.ttf */,
+				FF7A92A8DADC49FCBFF2B298 /* NotoSans-Bold.ttf */,
+				D433E329AA3741DC89A39E1F /* NotoSans-Medium.ttf */,
+				8F7DDADE58B94BE89F79835B /* NotoSans-Regular.ttf */,
+				65527BB684164338ACA03527 /* NotoSans-SemiBold.ttf */,
+				C68EB919D2A24074A1D0AC92 /* NotoSans.ttf */,
+				309759B30F254B74B227DC37 /* NotoSansDevanagariUI-Black.ttf */,
+				0F69AF9273C346FC999C35B3 /* NotoSansDevanagariUI-Bold.ttf */,
+				7E67329DD3C14833A021A450 /* NotoSansDevanagariUI-Medium.ttf */,
+				40F38A47DB5A478691CA2398 /* NotoSansDevanagariUI-Regular.ttf */,
+				7B15D3FF816544C082E6639D /* NotoSansDevanagariUI-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +163,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				222A4FFA4AE746BCA1353133 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -244,6 +286,17 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0F6FDB748FBB41619BD9395A /* NotoSans-Black.ttf in Resources */,
+				059BFD2D159E4057BB35B1E0 /* NotoSans-Bold.ttf in Resources */,
+				7C8F03E0E98243DA96BEC1FD /* NotoSans-Medium.ttf in Resources */,
+				B81EF7F341D542F49DB27DDC /* NotoSans-Regular.ttf in Resources */,
+				2E5F9A85451745C68A4136F9 /* NotoSans-SemiBold.ttf in Resources */,
+				233420EFC19A4CE487819BEB /* NotoSans.ttf in Resources */,
+				F83A6DFBCEE141758A0977C6 /* NotoSansDevanagariUI-Black.ttf in Resources */,
+				3E51E119117747EBBBD5DEF0 /* NotoSansDevanagariUI-Bold.ttf in Resources */,
+				CB3797A7BE9F4995B73979D2 /* NotoSansDevanagariUI-Medium.ttf in Resources */,
+				981ED9258EF547728C6D395F /* NotoSansDevanagariUI-Regular.ttf in Resources */,
+				E1BA2F628CB14EB981A9FF9C /* NotoSansDevanagariUI-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
